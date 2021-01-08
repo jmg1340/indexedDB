@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+h1{
+	text-align: center;
+	background-color: black;
+	color: white
+}
+
+#content{
+	border: 1px solid black;
+	width: 90%;
+	margin: 40px auto
+}
+
+nav{
+	background-color: lightgrey;
+	text-align: center
+}
+
+nav ul li {
+	border-right: 2px solid #7C7C7C;
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	width: 31%;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+#dades{
+	height: 500px;
+	border: 1px solid grey;
+}

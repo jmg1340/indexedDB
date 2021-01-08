@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+  width: 90%;
+  margin: 20px auto;
+  font-family: verdana, arial, serif;
+}
+
+
+#conjuntElementsData{
+	float: left;
+}
+.elementsData{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#posicioData{
+	background-color: orange;
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#botoInforme, #botoExportar{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+#dades{
+	float: left;
+}
+
+/*********** TAULA **********/
+
+#taula{
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: red 3px solid;
+	background-color: lightyellow;
+	font-size: 14px;
+
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+td,th{
+	border: grey 3px solid;
+}
+
+.cldata, .clss, .clestat, .botons{
+	width: 10%;
+}
+
+.botons{
+	text-align: center;
+}
+
+.activitat{
+	width: 100%;
+}
+
+input{
+	width: 96%;
+	background-color: lightgreen;
+}
+
+button{
+	font-size: 10px;
+}
+
+/*********** final TAULA **********/
+
+
+#comptadorRegistres{
+	font-size: 11px;
+	margin-top: 10px;
+}

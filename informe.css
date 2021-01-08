@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+  width: 90%;
+  margin: 20px auto;
+  font-family: courier, verdana, Arial;
+}
+
+header{
+	margin-bottom: 30px;
+}
+
+#colaborador{
+	float: right;
+}
+
+#setmana{
+	float: left;
+}
+
+#resultat{
+	float: none;
+}
+
+/*********** TAULA **********/
+
+.taula{
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: darkred 3px solid;
+	background-color: lightyellow;
+	font-size: 12px;
+
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+td,th{
+	border: grey 1px solid;
+	padding: 2px;
+}
+
+.cldata, .clss, .clestat, .botons{
+	width: 10%;
+}
+
+.botons{
+	text-align: center;
+}
+
+.activitat{
+	width: 100%;
+}
+
+
+button{
+	font-size: 10px;
+}
+
+/*********** final TAULA **********/
+
+#recompte{
+	font-family: courier, verdana, Arial;
+	font-size: 13px;
+	margin-top: 10px;
+}

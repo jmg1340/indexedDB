@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="../jquery-1.11.0.js"></script>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		var contact = new Object();
+		contact.firstname = "Jesper";
+		contact.surname = "Aaberg";
+		contact.phone = ["555-0100", "555-0120"];
+
+		var memberfilter = new Array();
+		memberfilter[0] = "surname";
+		memberfilter[1] = "phone";
+		var jsonText = JSON.stringify(contact, memberfilter, "\t");
+		document.write(jsonText);
+		alert(jsonText);		
+
+
+
+
+		var info = {
+						ssn: Math.floor(Math.random()*10E10).toString(), 
+						name: "aaa", 
+						age: 3, 
+						email: Math.floor(Math.random()*10E7).toString() + "@company.com"
+					}
+
+		jsonText = JSON.stringify(info, "\t");
+		document.write(jsonText);
+		alert(jsonText);		
+
+	</script>
+
+</body>
+</html>
